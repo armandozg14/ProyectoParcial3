@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB75B2E129155E110039ABFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75B2E029155E110039ABFB /* AppDelegate.swift */; };
+		FB75B2E329155E110039ABFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75B2E229155E110039ABFB /* SceneDelegate.swift */; };
+		FB75B2E529155E110039ABFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75B2E429155E110039ABFB /* ViewController.swift */; };
+		FB75B2E829155E110039ABFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB75B2E629155E110039ABFB /* Main.storyboard */; };
+		FB75B2EA29155E120039ABFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB75B2E929155E120039ABFB /* Assets.xcassets */; };
+		FB75B2ED29155E120039ABFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB75B2EB29155E120039ABFB /* LaunchScreen.storyboard */; };
+		FB75B2F829155E120039ABFB /* ProyectoParcial3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75B2F729155E120039ABFB /* ProyectoParcial3Tests.swift */; };
+		FB75B30229155E120039ABFB /* ProyectoParcial3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75B30129155E120039ABFB /* ProyectoParcial3UITests.swift */; };
+		FB75B30429155E120039ABFB /* ProyectoParcial3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75B30329155E120039ABFB /* ProyectoParcial3UITestsLaunchTests.swift */; };
+		FB75B32229155E9A0039ABFB /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB75B31029155E9A0039ABFB /* Montserrat-Medium.ttf */; };
+		FB75B32329155E9A0039ABFB /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB75B31129155E9A0039ABFB /* Montserrat-Bold.ttf */; };
+		FB75B32429155E9A0039ABFB /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB75B31229155E9A0039ABFB /* Montserrat-ExtraBold.ttf */; };
+		FB75B32529155E9A0039ABFB /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB75B31329155E9A0039ABFB /* Montserrat-MediumItalic.ttf */; };
+		FB75B32629155E9A0039ABFB /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB75B31429155E9A0039ABFB /* Montserrat-LightItalic.ttf */; };
+		FB75B32729155E9A0039ABFB /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB75B31529155E9A0039ABFB /* Montserrat-ExtraLightItalic.ttf */; };
+		FB75B32829155E9A0039ABFB /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB75B31629155E9A0039ABFB /* Montserrat-ExtraLight.ttf */; };
+		FB75B32929155E9A0039ABFB /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB75B31729155E9A0039ABFB /* Montserrat-ExtraBoldItalic.ttf */; };
+		FB75B32A29155E9A0039ABFB /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB75B31829155E9A0039ABFB /* Montserrat-SemiBoldItalic.ttf */; };
+		FB75B32B29155E9A0039ABFB /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB75B31929155E9A0039ABFB /* Montserrat-Light.ttf */; };
+		FB75B32C29155E9A0039ABFB /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB75B31A29155E9A0039ABFB /* Montserrat-Regular.ttf */; };
+		FB75B32D29155E9A0039ABFB /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB75B31B29155E9A0039ABFB /* Montserrat-Thin.ttf */; };
+		FB75B32E29155E9A0039ABFB /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB75B31C29155E9A0039ABFB /* Montserrat-ThinItalic.ttf */; };
+		FB75B32F29155E9A0039ABFB /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB75B31D29155E9A0039ABFB /* Montserrat-Black.ttf */; };
+		FB75B33029155E9A0039ABFB /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB75B31E29155E9A0039ABFB /* Montserrat-BlackItalic.ttf */; };
+		FB75B33129155E9A0039ABFB /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB75B31F29155E9A0039ABFB /* Montserrat-Italic.ttf */; };
+		FB75B33229155E9A0039ABFB /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB75B32029155E9A0039ABFB /* Montserrat-BoldItalic.ttf */; };
+		FB75B33329155E9A0039ABFB /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB75B32129155E9A0039ABFB /* Montserrat-SemiBold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB75B2F429155E120039ABFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB75B2D529155E110039ABFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB75B2DC29155E110039ABFB;
+			remoteInfo = ProyectoParcial3;
+		};
+		FB75B2FE29155E120039ABFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB75B2D529155E110039ABFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB75B2DC29155E110039ABFB;
+			remoteInfo = ProyectoParcial3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB75B2DD29155E110039ABFB /* ProyectoParcial3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoParcial3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB75B2E029155E110039ABFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB75B2E229155E110039ABFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB75B2E429155E110039ABFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB75B2E729155E110039ABFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB75B2E929155E120039ABFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB75B2EC29155E120039ABFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB75B2EE29155E120039ABFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB75B2F329155E120039ABFB /* ProyectoParcial3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoParcial3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB75B2F729155E120039ABFB /* ProyectoParcial3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoParcial3Tests.swift; sourceTree = "<group>"; };
+		FB75B2FD29155E120039ABFB /* ProyectoParcial3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoParcial3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB75B30129155E120039ABFB /* ProyectoParcial3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoParcial3UITests.swift; sourceTree = "<group>"; };
+		FB75B30329155E120039ABFB /* ProyectoParcial3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoParcial3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB75B31029155E9A0039ABFB /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		FB75B31129155E9A0039ABFB /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		FB75B31229155E9A0039ABFB /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		FB75B31329155E9A0039ABFB /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		FB75B31429155E9A0039ABFB /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		FB75B31529155E9A0039ABFB /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		FB75B31629155E9A0039ABFB /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		FB75B31729155E9A0039ABFB /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		FB75B31829155E9A0039ABFB /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		FB75B31929155E9A0039ABFB /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		FB75B31A29155E9A0039ABFB /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		FB75B31B29155E9A0039ABFB /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		FB75B31C29155E9A0039ABFB /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		FB75B31D29155E9A0039ABFB /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		FB75B31E29155E9A0039ABFB /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		FB75B31F29155E9A0039ABFB /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		FB75B32029155E9A0039ABFB /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FB75B32129155E9A0039ABFB /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB75B2DA29155E110039ABFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB75B2F029155E120039ABFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB75B2FA29155E120039ABFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB75B2D429155E110039ABFB = {
+			isa = PBXGroup;
+			children = (
+				FB75B2DF29155E110039ABFB /* ProyectoParcial3 */,
+				FB75B2F629155E120039ABFB /* ProyectoParcial3Tests */,
+				FB75B30029155E120039ABFB /* ProyectoParcial3UITests */,
+				FB75B2DE29155E110039ABFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB75B2DE29155E110039ABFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB75B2DD29155E110039ABFB /* ProyectoParcial3.app */,
+				FB75B2F329155E120039ABFB /* ProyectoParcial3Tests.xctest */,
+				FB75B2FD29155E120039ABFB /* ProyectoParcial3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB75B2DF29155E110039ABFB /* ProyectoParcial3 */ = {
+			isa = PBXGroup;
+			children = (
+				FB75B31D29155E9A0039ABFB /* Montserrat-Black.ttf */,
+				FB75B31E29155E9A0039ABFB /* Montserrat-BlackItalic.ttf */,
+				FB75B31129155E9A0039ABFB /* Montserrat-Bold.ttf */,
+				FB75B32029155E9A0039ABFB /* Montserrat-BoldItalic.ttf */,
+				FB75B31229155E9A0039ABFB /* Montserrat-ExtraBold.ttf */,
+				FB75B31729155E9A0039ABFB /* Montserrat-ExtraBoldItalic.ttf */,
+				FB75B31629155E9A0039ABFB /* Montserrat-ExtraLight.ttf */,
+				FB75B31529155E9A0039ABFB /* Montserrat-ExtraLightItalic.ttf */,
+				FB75B31F29155E9A0039ABFB /* Montserrat-Italic.ttf */,
+				FB75B31929155E9A0039ABFB /* Montserrat-Light.ttf */,
+				FB75B31429155E9A0039ABFB /* Montserrat-LightItalic.ttf */,
+				FB75B31029155E9A0039ABFB /* Montserrat-Medium.ttf */,
+				FB75B31329155E9A0039ABFB /* Montserrat-MediumItalic.ttf */,
+				FB75B31A29155E9A0039ABFB /* Montserrat-Regular.ttf */,
+				FB75B32129155E9A0039ABFB /* Montserrat-SemiBold.ttf */,
+				FB75B31829155E9A0039ABFB /* Montserrat-SemiBoldItalic.ttf */,
+				FB75B31B29155E9A0039ABFB /* Montserrat-Thin.ttf */,
+				FB75B31C29155E9A0039ABFB /* Montserrat-ThinItalic.ttf */,
+				FB75B2E029155E110039ABFB /* AppDelegate.swift */,
+				FB75B2E229155E110039ABFB /* SceneDelegate.swift */,
+				FB75B2E429155E110039ABFB /* ViewController.swift */,
+				FB75B2E629155E110039ABFB /* Main.storyboard */,
+				FB75B2E929155E120039ABFB /* Assets.xcassets */,
+				FB75B2EB29155E120039ABFB /* LaunchScreen.storyboard */,
+				FB75B2EE29155E120039ABFB /* Info.plist */,
+			);
+			path = ProyectoParcial3;
+			sourceTree = "<group>";
+		};
+		FB75B2F629155E120039ABFB /* ProyectoParcial3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FB75B2F729155E120039ABFB /* ProyectoParcial3Tests.swift */,
+			);
+			path = ProyectoParcial3Tests;
+			sourceTree = "<group>";
+		};
+		FB75B30029155E120039ABFB /* ProyectoParcial3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB75B30129155E120039ABFB /* ProyectoParcial3UITests.swift */,
+				FB75B30329155E120039ABFB /* ProyectoParcial3UITestsLaunchTests.swift */,
+			);
+			path = ProyectoParcial3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB75B2DC29155E110039ABFB /* ProyectoParcial3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB75B30729155E120039ABFB /* Build configuration list for PBXNativeTarget "ProyectoParcial3" */;
+			buildPhases = (
+				FB75B2D929155E110039ABFB /* Sources */,
+				FB75B2DA29155E110039ABFB /* Frameworks */,
+				FB75B2DB29155E110039ABFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProyectoParcial3;
+			productName = ProyectoParcial3;
+			productReference = FB75B2DD29155E110039ABFB /* ProyectoParcial3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB75B2F229155E120039ABFB /* ProyectoParcial3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB75B30A29155E120039ABFB /* Build configuration list for PBXNativeTarget "ProyectoParcial3Tests" */;
+			buildPhases = (
+				FB75B2EF29155E120039ABFB /* Sources */,
+				FB75B2F029155E120039ABFB /* Frameworks */,
+				FB75B2F129155E120039ABFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB75B2F529155E120039ABFB /* PBXTargetDependency */,
+			);
+			name = ProyectoParcial3Tests;
+			productName = ProyectoParcial3Tests;
+			productReference = FB75B2F329155E120039ABFB /* ProyectoParcial3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB75B2FC29155E120039ABFB /* ProyectoParcial3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB75B30D29155E120039ABFB /* Build configuration list for PBXNativeTarget "ProyectoParcial3UITests" */;
+			buildPhases = (
+				FB75B2F929155E120039ABFB /* Sources */,
+				FB75B2FA29155E120039ABFB /* Frameworks */,
+				FB75B2FB29155E120039ABFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB75B2FF29155E120039ABFB /* PBXTargetDependency */,
+			);
+			name = ProyectoParcial3UITests;
+			productName = ProyectoParcial3UITests;
+			productReference = FB75B2FD29155E120039ABFB /* ProyectoParcial3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB75B2D529155E110039ABFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FB75B2DC29155E110039ABFB = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					FB75B2F229155E120039ABFB = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FB75B2DC29155E110039ABFB;
+					};
+					FB75B2FC29155E120039ABFB = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FB75B2DC29155E110039ABFB;
+					};
+				};
+			};
+			buildConfigurationList = FB75B2D829155E110039ABFB /* Build configuration list for PBXProject "ProyectoParcial3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB75B2D429155E110039ABFB;
+			productRefGroup = FB75B2DE29155E110039ABFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB75B2DC29155E110039ABFB /* ProyectoParcial3 */,
+				FB75B2F229155E120039ABFB /* ProyectoParcial3Tests */,
+				FB75B2FC29155E120039ABFB /* ProyectoParcial3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB75B2DB29155E110039ABFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB75B32629155E9A0039ABFB /* Montserrat-LightItalic.ttf in Resources */,
+				FB75B32F29155E9A0039ABFB /* Montserrat-Black.ttf in Resources */,
+				FB75B32329155E9A0039ABFB /* Montserrat-Bold.ttf in Resources */,
+				FB75B33329155E9A0039ABFB /* Montserrat-SemiBold.ttf in Resources */,
+				FB75B32C29155E9A0039ABFB /* Montserrat-Regular.ttf in Resources */,
+				FB75B32429155E9A0039ABFB /* Montserrat-ExtraBold.ttf in Resources */,
+				FB75B32529155E9A0039ABFB /* Montserrat-MediumItalic.ttf in Resources */,
+				FB75B33129155E9A0039ABFB /* Montserrat-Italic.ttf in Resources */,
+				FB75B2ED29155E120039ABFB /* LaunchScreen.storyboard in Resources */,
+				FB75B33229155E9A0039ABFB /* Montserrat-BoldItalic.ttf in Resources */,
+				FB75B2EA29155E120039ABFB /* Assets.xcassets in Resources */,
+				FB75B32A29155E9A0039ABFB /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				FB75B33029155E9A0039ABFB /* Montserrat-BlackItalic.ttf in Resources */,
+				FB75B32229155E9A0039ABFB /* Montserrat-Medium.ttf in Resources */,
+				FB75B2E829155E110039ABFB /* Main.storyboard in Resources */,
+				FB75B32E29155E9A0039ABFB /* Montserrat-ThinItalic.ttf in Resources */,
+				FB75B32D29155E9A0039ABFB /* Montserrat-Thin.ttf in Resources */,
+				FB75B32729155E9A0039ABFB /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				FB75B32829155E9A0039ABFB /* Montserrat-ExtraLight.ttf in Resources */,
+				FB75B32929155E9A0039ABFB /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				FB75B32B29155E9A0039ABFB /* Montserrat-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB75B2F129155E120039ABFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB75B2FB29155E120039ABFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB75B2D929155E110039ABFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB75B2E529155E110039ABFB /* ViewController.swift in Sources */,
+				FB75B2E129155E110039ABFB /* AppDelegate.swift in Sources */,
+				FB75B2E329155E110039ABFB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB75B2EF29155E120039ABFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB75B2F829155E120039ABFB /* ProyectoParcial3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB75B2F929155E120039ABFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB75B30429155E120039ABFB /* ProyectoParcial3UITestsLaunchTests.swift in Sources */,
+				FB75B30229155E120039ABFB /* ProyectoParcial3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB75B2F529155E120039ABFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB75B2DC29155E110039ABFB /* ProyectoParcial3 */;
+			targetProxy = FB75B2F429155E120039ABFB /* PBXContainerItemProxy */;
+		};
+		FB75B2FF29155E120039ABFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB75B2DC29155E110039ABFB /* ProyectoParcial3 */;
+			targetProxy = FB75B2FE29155E120039ABFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB75B2E629155E110039ABFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB75B2E729155E110039ABFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB75B2EB29155E120039ABFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB75B2EC29155E120039ABFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB75B30529155E120039ABFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB75B30629155E120039ABFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB75B30829155E120039ABFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProyectoParcial3/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.ProyectoParcial3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB75B30929155E120039ABFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProyectoParcial3/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.ProyectoParcial3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB75B30B29155E120039ABFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.ProyectoParcial3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProyectoParcial3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProyectoParcial3";
+			};
+			name = Debug;
+		};
+		FB75B30C29155E120039ABFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.ProyectoParcial3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProyectoParcial3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProyectoParcial3";
+			};
+			name = Release;
+		};
+		FB75B30E29155E120039ABFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.ProyectoParcial3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProyectoParcial3;
+			};
+			name = Debug;
+		};
+		FB75B30F29155E120039ABFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.ProyectoParcial3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProyectoParcial3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB75B2D829155E110039ABFB /* Build configuration list for PBXProject "ProyectoParcial3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB75B30529155E120039ABFB /* Debug */,
+				FB75B30629155E120039ABFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB75B30729155E120039ABFB /* Build configuration list for PBXNativeTarget "ProyectoParcial3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB75B30829155E120039ABFB /* Debug */,
+				FB75B30929155E120039ABFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB75B30A29155E120039ABFB /* Build configuration list for PBXNativeTarget "ProyectoParcial3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB75B30B29155E120039ABFB /* Debug */,
+				FB75B30C29155E120039ABFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB75B30D29155E120039ABFB /* Build configuration list for PBXNativeTarget "ProyectoParcial3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB75B30E29155E120039ABFB /* Debug */,
+				FB75B30F29155E120039ABFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB75B2D529155E110039ABFB /* Project object */;
+}
